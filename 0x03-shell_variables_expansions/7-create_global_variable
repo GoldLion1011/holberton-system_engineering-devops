@@ -1,2 +1,2 @@
 #!/bin/bash
-a=BEST d="$(School)"
+BEST='School'
