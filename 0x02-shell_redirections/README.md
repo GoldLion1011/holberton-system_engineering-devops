@@ -12,10 +12,13 @@ Redirections and filters:
 10. No more javascript
 11. Count number of directories
 12. 10 newest
-11. Being unique is better than being perfect
-12. Display lines containing the pattern “root” from the file /etc/passwd
-13. Display the number of lines that contain the pattern “bin” in the file /etc/passw
-14. Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
-15. Display all the lines in the file /etc/passwd that do not contain the pattern “bin”
-16. Display all lines of the file /etc/ssh/sshd_config starting with a letter
-17. Replace all characters A and c from input to Z and e respectively
+13. Being unique is better than being perfect
+14. Display lines containing the pattern “root” from the file /etc/passwd
+15. Display the number of lines that contain the pattern “bin” in the file /etc/passw
+16. Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd
+17. Display all the lines in the file /etc/passwd that do not contain the pattern “bin”
+18. Display all lines of the file /etc/ssh/sshd_config starting with a letter
+19. Replace all characters A and c from input to Z and e respectively
+20. Create a script that removes all letters c and C from input
+21. Write a script that reverse its input
+22. Write a script that displays all users and their home directories, sorted by users, Based on the the /etc/passwd file
