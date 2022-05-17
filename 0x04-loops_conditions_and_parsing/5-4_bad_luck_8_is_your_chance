@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+##This script displays 10 lines with bad luck on the 4th, good luck on the 8th, Best School on all others
+
+x=0
+while [ $x -lt 10 ]
+do
+
+	if [ $x == '3' ]
+
+	then
+     		echo "bad luck"
+
+	elif [ $x == '7' ]
+
+	then
+      		echo "good luck"
+
+	else 
+      		echo "Best School"
+
+	fi
+      ((x++))
+
+done 
