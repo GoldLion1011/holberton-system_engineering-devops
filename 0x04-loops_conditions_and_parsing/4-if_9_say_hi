@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+## This script display Best School 10 times, but the 9th line says Hi
+x=0
+
+while [ $x -lt 9 ]
+
+do	
+       echo "Best School"
+       ((x++))
+   
+if [ $x == '8' ] 
+
+then
+       echo "Hi"
+
+fi
+
+done        	
