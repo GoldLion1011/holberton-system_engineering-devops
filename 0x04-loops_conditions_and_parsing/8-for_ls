@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+##Script that prints file names without numbers
+
+list=$(ls)
+       
+for file in $list
+
+       do
+       echo "$file" | cut -d- -f 2
+
+done
