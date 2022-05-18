@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # Bash script that displays lines containing the bash word using previous command
 # shellcheck disable=SC2009
-ps -F | grep 'bash$' 
+ps auxf | grep 'bash$' 
