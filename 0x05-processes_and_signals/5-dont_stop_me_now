@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Stop the loop from previous exercise using kill command
 
-p=5755
-kill -15 $p 
+p=$(pgrep -f "4-to_infinity_and_beyond")
+kill "$p" 
