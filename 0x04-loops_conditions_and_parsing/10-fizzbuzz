@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+##Script that displays 1 to 100
+
+for all x in {1..100}
+do 
+   if (($x%3 && $x%5)
+      then
+         echo "Fizz Buzz"
+      elif (($x%3))
+         then echo "Fizz"
+      elif (($x%5))
+         then echo "Buzz"
+   else
+      echo "$x"
+   fi
+done
