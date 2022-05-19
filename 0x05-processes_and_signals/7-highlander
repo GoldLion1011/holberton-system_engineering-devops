@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 ##Trap the loop with SIGTERM
 
-trap 
-      echo "I am invincible!!!"
-      pkill -f "4-to_infinity_and_beyond" SIGTERM
+trap "4-to_infinity_and_beyond" SIGTERM
+echo "I am invincible"
