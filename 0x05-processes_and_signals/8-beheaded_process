@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+##Script that kills the highlander loop
+
+v=$(pgrep -f "7-highlander")
+kill -9 "$v"
